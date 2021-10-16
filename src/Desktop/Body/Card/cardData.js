@@ -3,31 +3,27 @@ import Card from 'react-bootstrap/Card'
 
 export const CardData = [
     {
-        title: "Menu",
+        title: "MENS",
         price: 200,
-        image: <Card.Img variant="top" src="background.jpg/100px180"/>,
+        image: <Card.Img className="card-img" variant="top" src="https://bit.ly/3mXIVHu"/>,
         text: "Some quick example text to build on the card title and make up the bulk ofthe card's content.",
-        button: "View More"
+        button: "View More",
+        cName: "card-body"
     },
     {
-        title: "Menu",
+        title: "WOMEN",
         price: 200,
-        image: <Card.Img variant="top" src="background.jpg/100px180"/>,
+        image: <Card.Img className="card-img" variant="top" src="https://bit.ly/3mXIVHu"/>,
         text: "Some quick example text to build on the card title and make up the bulk ofthe card's content.",
-        button: "View More"
+        button: "View More",
+        cName: "card-body"
     },
     {
-        title: "Menu",
+        title: "KIDS",
         price: 200,
-        image: <Card.Img variant="top" src="background.jpg/100px180" />,
+        image: <Card.Img className="card-img" variant="top" src="https://bit.ly/3mXIVHu" />,
         text: "Some quick example text to build on the card title and make up the bulk ofthe card's content.",
-        button: "View More"
-    },
-    {
-        title: "Menu",
-        price: 200,
-        image: <Card.Img variant="top" src="background.jpg/100px180" />,
-        text: "Some quick example text to build on the card title and make up the bulk ofthe card's content.",
-        button: "View More"
+        button: "View More",
+        cName: "card-body"
     },
 ]

@@ -14,3 +14,24 @@
     display: flex;
     max-width: 70%;
 }
+.products {
+    display: flex;
+}
+.card {
+    display: flex;
+}
+.card-body {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    font-family: monospace;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.card-body img {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
