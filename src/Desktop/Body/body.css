@@ -1,0 +1,16 @@
+.body-ui {
+    background-color: aquamarine;
+    margin-top: -10px;
+    width: 100vw;
+    display: flex;
+}
+.body-ui .body-left {
+    flex: 30%;
+    display: flex;
+}
+.body-ui .body-right {
+    margin-top: 30px;
+    flex: 70%;
+    display: flex;
+    max-width: 70%;
+}

@@ -1,0 +1,162 @@
+.App {
+    width: 100vw;
+    height: 100vw;
+  }
+  
+  body {
+    background-color:red;
+    width: 100vw;
+    height: 500px;
+    margin: 0vw;
+    padding: 2px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .navBar {
+    background-color: rgba(94, 61, 34, 0.349);
+    height: 80px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+  }
+  .navBar .navBar-right {
+    flex: 50%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .navBar .navBar-right a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+    padding: 10px;
+  }
+  a.links,a:hover {
+    background-color: hsla(32, 58%, 37%, 0.589);
+    border-radius: 2px;
+    transition: .5s;
+
+  }
+  
+  .navBar .navBar-right button {
+    display: none;
+  }
+  .navBar .navBar-right #hidden {
+    display: flex;
+    transition: 800ms;
+  }
+  
+  .navBar .navBar-left {
+    flex: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .yourcart:hover {
+    cursor: pointer;
+    background-color: none  ;
+  }
+  .navBar .navBar-left .yourcart {
+    color: White;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    margin-right: 80px;
+  }
+  .navBar-left input {
+    height: 20px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #000000;
+    margin: 10px;
+  }
+  .navBar .navBar-left button {
+    height: 25px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width: 850px) {
+    .navBar .navBar-right a {
+      font-size: 15px;
+    }
+    .navBar .navBar-left .yourcart {
+      font-size: 25px;
+      display: flex;
+      margin-right: 15px;
+    }
+    .navBar-left input {
+      width: 400px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .navBar .navBar-right a {
+      font-size: 20px;
+    }
+    .navBar .navBar-left .yourcart {
+      font-size: 20px;
+      display: flex;
+      margin-right: 12px;
+    }
+    .navBar-left input {
+      width: 350px;
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .navBar .navBar-right a {
+      font-size: 10px;
+    }
+    .navBar-left input {
+      width: 200px;
+    }
+    .navBar .navBar-left .yourcart {
+      font-size: 25px;
+      display: flex;
+      margin-right: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 540px) {
+    .navBar .navBar-right button {
+      display: flex;
+    }
+    .navBar .navBar-right .links {
+          display: none;
+      }
+      /* .navBar .navBar-right {
+        display: flex;
+        justify-content: left;
+      } */
+    .navBar .navBar-right #hidden {
+      position: absolute;
+      display: flex;
+      left: 0%;
+      top: 80px;
+      height: 100px;
+      width: 100%;
+      background-color: hsl(208, 89%, 7%);
+      flex-direction: column;
+      align-items: center;
+    }
+    .navBar .navBar-right #hidden a {
+      margin: 10px;
+      text-decoration: none;
+      font-size: 20px;
+      margin: 4px;
+      color: white;
+    }
+  }
+  
