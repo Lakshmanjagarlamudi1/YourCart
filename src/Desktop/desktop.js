@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './Navbar/navBar'
 import Body from './Body/body'
+import Footer from './Footer/footer'
 
 
 const Desktop = () => {
@@ -8,6 +9,7 @@ const Desktop = () => {
         <div>
             <NavBar/>
             <Body/>
+            <Footer/>
         </div>
     )
 }

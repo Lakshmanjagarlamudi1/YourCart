@@ -36,11 +36,11 @@
     color: white;
     padding: 10px;
   }
-  a.links,a:hover {
-    background-color: hsla(32, 58%, 37%, 0.589);
+  .navBar .navBar-right a.links,a:hover {
+    background-color: none;
+    height: auto;
     border-radius: 2px;
     transition: .5s;
-
   }
   
   .navBar .navBar-right button {
