@@ -4,15 +4,16 @@
   }
   
   body {
-    background-color:red;
     width: 100vw;
-    height: 500px;
     margin: 0vw;
     padding: 2px;
   }
   
   button:hover {
     cursor: pointer;
+  }
+  input:focus {
+    outline: none;
   }
   
   .navBar {
@@ -72,7 +73,7 @@
     margin-right: 80px;
   }
   .navBar-left input {
-    height: 20px;
+    height: 25px;
     width: 500px;
     border: none;
     border-radius: 5px;

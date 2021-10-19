@@ -9,7 +9,7 @@ const SideNav = () => {
             <ul className="side-nav-lists">
                 {SidenavBardata.map((item, index) => (
                     <li key={index} className={item.cName}>
-                        <Link href={item.path}>
+                        <Link className="links" href={item.path}>
                             {item.icon}
                             <span className="title">{item.title}</span>
                         </Link>

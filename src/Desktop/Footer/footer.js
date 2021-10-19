@@ -5,7 +5,7 @@ import './footer.css'
 const Footer = () => {
     return (
         <div>
-            <footer>
+            <footer className="footer">
                 <div className="inner-footer">
                     <ul>
                         <li className="social-items"><a href="/Facebook"><SiIcons.SiFacebook /></a></li>

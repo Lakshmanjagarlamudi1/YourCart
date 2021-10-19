@@ -1,5 +1,4 @@
 .body-ui {
-    background-color: aquamarine;
     margin-top: -10px;
     width: 100vw;
     display: flex;
@@ -11,24 +10,20 @@
     margin-top: 10px;
     overflow: auto;
     overflow-y: hidden;
-    background-color: blue;
-    height: 400px;
+    height: 100vw;
     width: 100vw;
 }
-.body-ui .body-right1 {
+/* .body-ui .body-right1 {
     margin-top: 10px;
     overflow: auto;
     overflow-y: hidden;
-    background-color: blue;
     height: 400px;
     width: 100vw;
-}
+} */
 .products {
     display: flex;
 }
 .card {
     display: flex;
-    height: max-content;
-    max-width: fit-content;
 }
 

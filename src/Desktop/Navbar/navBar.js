@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import './navBar.css'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import ReorderIcon from "@material-ui/icons/Reorder";
 import SearchIcon from "@material-ui/icons/Search";
 
@@ -13,7 +14,7 @@ function NavBar() {
             <div className="navBar-left">
                 <label className="yourcart" href="#Homepage">YourCart</label>
                 <input type="text" placeholder="Search"></input>
-                <button type="submit"><SearchIcon/></button>
+                <button className="warning" type="submit"><SearchIcon/></button>
             </div>
             <div className="navBar-right">
                 <div className="links" id={className ? "hidden":""}>
