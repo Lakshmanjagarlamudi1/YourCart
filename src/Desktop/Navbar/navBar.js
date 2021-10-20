@@ -18,11 +18,11 @@ function NavBar() {
             </div>
             <div className="navBar-right">
                 <div className="links" id={className ? "hidden":""}>
-                    <a href="/Catagories">Catagories</a>
-                    <a href="/Cart">Cart</a>
                     <a href="/Account">Notifications</a>
+                    <a href="/Catagories">Catagories</a>
                     <a href="/Account">More</a>
-                    <a href="/Account">Account</a>
+                    <a href="/Cart">Cart</a>
+                    <a href="/user">User</a>
                 </div>
                     <button onClick={()=> setClassName(!className)}><ReorderIcon/></button>
             </div>

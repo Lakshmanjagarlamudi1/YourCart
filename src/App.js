@@ -3,7 +3,9 @@ import './App.css'
 import Desktop from "./Desktop/desktop"
 
 const App = () => (
-    <Desktop />
+    <div>
+        <Desktop />
+    </div>
 )
 
 export default App
