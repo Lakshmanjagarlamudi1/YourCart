@@ -10,7 +10,10 @@ const Body = () => {
                 <SideNav />
             </div>
             <div className="body-right">
-                
+                <CardUi/>
+                <div>
+                    <CardUi/>
+                </div>
             </div>
         </div>
     )

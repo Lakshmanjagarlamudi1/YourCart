@@ -12,3 +12,7 @@ html {
     :-webkit-scrollbar-thumb {
     background: #FF0000;
     }
+
+    body{
+        background-color: rgb(3, 152, 158);
+    }

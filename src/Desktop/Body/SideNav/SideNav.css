@@ -16,7 +16,7 @@ a.MuiTypography-root.MuiLink-root.MuiLink-underlineHover.links.MuiTypography-col
 
 .nav-text {
     display: flex;
-    color: blue;
+    color:#fff;
     padding: 8px 0px 8px 16px;
     list-style: none;
     height: 40px;
@@ -24,7 +24,7 @@ a.MuiTypography-root.MuiLink-root.MuiLink-underlineHover.links.MuiTypography-col
 }
 .nav-text a{
     text-decoration: none;
-    color: #0d2c92;
+    color: #fff;
     font-size: 20px;
     display: flex;
     align-items: center;
