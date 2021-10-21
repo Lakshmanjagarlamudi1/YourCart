@@ -1,11 +1,8 @@
 .footer {
     background-color: grey;
+    justify-content: center;
 }
 
-.inner-footer {
-    margin: 0;
-    padding: 0;
-}
 
 .inner-footer ul{
     display: flex;

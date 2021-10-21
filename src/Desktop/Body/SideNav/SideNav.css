@@ -1,4 +1,8 @@
 .side-nav-lists {
+    display: none;
+}
+
+#hidden {
     height: 550px;
     width: 200px;
     margin-left: -50px;

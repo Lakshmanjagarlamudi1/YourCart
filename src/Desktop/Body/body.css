@@ -8,6 +8,7 @@
 }
 .body-ui .body-right {
     margin-top: 10px;
+    margin-left: 50px;
     overflow: auto;
     overflow-y: hidden;
     width: 100vw;

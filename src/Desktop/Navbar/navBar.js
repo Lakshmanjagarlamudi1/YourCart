@@ -12,7 +12,7 @@ function NavBar() {
     return (
         <div className="navBar">
             <div className="navBar-left">
-                <label className="yourcart" href="#Homepage">YourCart</label>
+                <label className="yourcart" href="#Homepage"><img style={{height:"60px"}} src="/images/YourCart.jpg"/></label>
                 <input type="text" placeholder="Search"></input>
                 <button className="warning" type="submit"><SearchIcon/></button>
             </div>
