@@ -8,10 +8,10 @@ import productpage from './Body/pages/productpage';
 const Desktop = () => {
     return (
         <div>
-            {/* <productpage/> */}
-            <NavBar/>
+            <productpage/>
+            {/* <NavBar/>
             <Body/>
-            <Footer/>
+            <Footer/> */}
         </div>
     )
 }
