@@ -25,7 +25,7 @@
     color: #6cccc6;
 }
 .social-items a:hover{
-    background-color: none;
+    background-color: transparent;
 }
 
 /* .quick-links{

@@ -13,7 +13,7 @@ export const CardData = [
     {
         title: "WOMEN",
         price: 200,
-        image: <Card.Img className="card-img" variant="top" src="https://bit.ly/3mXIVHu"/>,
+        image: <Card.Img className="card-img" variant="top" src="https://bit.ly/3xzg2HH"/>,
         text: "Some quick example text to build on the card title and make up the bulk ofthe card's content.",
         button: "View More",
         cName: "card-body"
@@ -27,7 +27,7 @@ export const CardData = [
         cName: "card-body"
     },
     {
-        title: "KIDS",
+        title: "RETRO",
         price: 200,
         image: <Card.Img className="card-img" variant="top" src="https://bit.ly/3mXIVHu" />,
         text: "Some quick example text to build on the card title and make up the bulk ofthe card's content.",
@@ -35,7 +35,7 @@ export const CardData = [
         cName: "card-body"
     },
     {
-        title: "KIDS",
+        title: "LATEST",
         price: 200,
         image: <Card.Img className="card-img" variant="top" src="https://bit.ly/3mXIVHu" />,
         text: "Some quick example text to build on the card title and make up the bulk ofthe card's content.",
